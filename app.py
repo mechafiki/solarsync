@@ -25,13 +25,13 @@ warnings.filterwarnings('ignore')
 # PERSISTANCE ET HISTORIQUE (POUR LES FOYERS)
 # ============================================================
 def load_profiles():
-    if os.path.exists("./app data/ser_profiles.json"):
-        with open("./app data/ser_profiles.json", "r", encoding="utf-8") as f:
+    if os.path.exists("./app data/user_profiles.json"):
+        with open("./app data/user_profiles.json", "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
 
 def save_profiles(profiles):
-    with open("./app data/ser_profiles.json", "w", encoding="utf-8") as f:
+    with open("./app data/user_profiles.json", "w", encoding="utf-8") as f:
         json.dump(profiles, f, indent=4)
 
 def init_historical_csv(name, data):
