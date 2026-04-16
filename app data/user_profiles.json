@@ -1,0 +1,24 @@
+{
+    "famille": {
+        "city": "Ouarzazate",
+        "tarif": "Tarif Standard",
+        "panels": true,
+        "type": "Maison Traditionnelle",
+        "surface": 102,
+        "residents": 5,
+        "apt_id": "APT1",
+        "isolation": "Excellente (A/B)",
+        "has_ev": false
+    },
+    "ggg": {
+        "city": "Fquih Ben Salah",
+        "tarif": "Tarif Standard",
+        "panels": false,
+        "type": "Maison Traditionnelle",
+        "surface": 180,
+        "residents": 10,
+        "isolation": "Moyenne (C/D)",
+        "has_ev": false,
+        "apt_id": "APT1"
+    }
+}
